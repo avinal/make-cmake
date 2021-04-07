@@ -35,6 +35,7 @@ jobs:
         set(ENV{CXX} ${{matrix.config.cxx}})
     - name: generate
       run: |
+        cd hello-cmake
         mkdir build
         cd build
         cmake -DCMAKE_BUILD_TYPE=${{matrix.config.build_type}} ..
