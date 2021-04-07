@@ -1,4 +1,4 @@
-# How to manually convert `Makefiles` to `CMakeLists.txt`
+## How to manually convert `Makefiles` to `CMakeLists.txt`
 
 ## Install packages (Debian/Ubuntu)
 
@@ -11,9 +11,7 @@
 
 ### Source Tree
 
-<p align=center>
-<code>
-
+```bash
     hello-make/
     ├── include
     │   └── hello.h
@@ -24,8 +22,7 @@
     └── src
         ├── main.cc
         └── Makefile
-</code>
-</p>
+```
 
 ### How to run Make?
 
@@ -39,9 +36,7 @@
 
 ### Source Tree
 
-<p align=center>
-<code>
-
+```bash
     hello-cmake/
     ├── CMakeLists.txt
     ├── include
@@ -52,8 +47,7 @@
     └── src
         ├── CMakeLists.txt
         └── main.cc
-</code>
-</p>
+```
 
 ### How to run CMake?
 
